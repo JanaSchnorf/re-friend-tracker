@@ -229,6 +229,34 @@ export class GuiModel {
                             "name": "Ok" 
                         } 
                     ] 
+                },
+                { 
+                   "id": "NewForm", 
+                   "title": "Activity", 
+                   "url": "/activity", 
+                   "formFieldList": [ 
+                       { 
+                           
+                            "id": "activity", 
+                            "type": "autocomplete", 
+                            "name": "ActivityName",
+                            "url": "/activity", 
+                            "form": "ActivityForm",
+                            "width": 2,  
+                        }, 
+                        { 
+                            "type": "deleteButton", 
+                            "name": "Delete" 
+                        }, 
+                        { 
+                            "type": "cancelButton", 
+                            "name": "Cancel" 
+                        }, 
+                        { 
+                            "type": "okButton", 
+                            "name": "Ok" 
+                        } 
+                    ] 
                 }
                 
 
@@ -315,7 +343,7 @@ export class GuiModel {
                             "icon": "fa-calendar-alt",
                             "color": "green",
                             "form": {
-                                "form": "ActivityForm"
+                                "form": "NewForm"  
                             }
                         },
                         {
