@@ -190,7 +190,7 @@ export class GuiModel {
                        { 
                             "id": "name", 
                             "type": "text", 
-                            "name": "ActivityName", 
+                            "name": "Name", 
                             "width": 2, 
                             "required": true 
                         }, 
